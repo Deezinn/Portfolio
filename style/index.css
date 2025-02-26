@@ -1,12 +1,17 @@
 body {
     /* background-image: url('../assets/img/background.jpg'); */
-    background-size: cover;
-    background-position: center;
+    background-color: rgb(43, 43, 43);
+    background-size: contain; /* Mantém toda a imagem visível */
+    background-position: top center; /* Alinha ao topo e ao centro */
     background-repeat: no-repeat;
-
+    height: 100vh; /* Garante que o corpo ocupe toda a tela */
 }
 
-h1,h2,h3,p{
-    color: rgb(0, 0, 0);
+
+h1{
+    color: white;
 }
 
+p{
+    color: orangered;
+}
